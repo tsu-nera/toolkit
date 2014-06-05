@@ -1,0 +1,10 @@
+* toolkit
+My Toolkit
+
+** add
+
+git submodule add git@github.com:tsu-nera/dotfiles.git
+
+** update
+
+
