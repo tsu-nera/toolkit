@@ -2,9 +2,28 @@
 My Toolkit
 
 ** add
-
+#+begin_src sh
 git submodule add git@github.com:tsu-nera/dotfiles.git
+#+end_src
+
+** status
+#+begin_src sh
+git submodule status
+#+end_src
 
 ** update
+#+begin_src sh
+git submodule update
+git submodule foreach 'git pull origin master'
+#+end_src
 
+** foreach
+#+begin_src language
+git submodule foreach ls
+git submodule foreach 'git pull origin master'
+#+end_src
 
+** init
+#+begin_src sh
+git clone --recursive git@github.com:tsu-nera/toolkit.git
+#+end_
