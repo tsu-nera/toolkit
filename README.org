@@ -27,3 +27,10 @@ git submodule foreach 'git pull origin master'
 #+begin_src sh
 git clone --recursive git@github.com:tsu-nera/toolkit.git
 #+end_
+** delete
+
+#+begin_src language
+git submodule deinit hogehoge
+git rm -rf hogehoge
+#+end_src
+
