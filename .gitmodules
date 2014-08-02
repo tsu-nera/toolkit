@@ -1,9 +1,9 @@
 [submodule "dotfiles"]
 	path = dotfiles
-	url = https://github.com/tsu-nera/dotfiles.git
+	url = git@github.com/tsu-nera/dotfiles.git
 [submodule "script"]
 	path = script
-	url = https://github.com/tsu-nera/script.git
+	url = git@github.com/tsu-nera/script.git
 [submodule "futurismo"]
 	path = futurismo
-	url = https://github.com/tsu-nera/futurismo.git
+	url = git@github.com/tsu-nera/futurismo.git
